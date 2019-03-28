@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReWrite</string>
+    <string-array name="CV">
+        <item>Without Experience</item>
+        <item>With Experience</item>
+    </string-array>
+</resources>

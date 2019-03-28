@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main9Activity"
+    android:background="@drawable/gradient1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Educational Details"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="Course"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="Year"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/specialization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="Specialization"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/uni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="University"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/cgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="CGPA"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/tenb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="10th Grade Board"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/tenm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="10th Grade Marks"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/twelveb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="12th Grade Board"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/twelvem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="12th Grade Marks"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="coding language"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="coding language 2"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="coding language 3"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="coding language 4"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/c5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#acacac"
+            android:ems="10"
+            android:hint="coding language 5"
+            android:inputType="textPersonName"
+            android:textColor="#acacac"
+            android:textColorHint="#acacac" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_background"
+            android:text="Enter" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

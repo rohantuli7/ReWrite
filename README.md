@@ -13,3 +13,11 @@ Android Studio allows the creator to ask for specific hardware permission from t
 
 In our app we have asked the user to allow the application to store a .pdf file in the local storage of user's mobile phone.
 
+
+### Firebase
+We have used firebase for login, Sign up page and for real time data-base. The user must create an account in order to use the application. The sign-up page asks the user to enter his name, last name, username, email address, phone number and password. The application checks for valid email address and phone number. With the help of firebase, we have achieved verification via email. According to which a mail is been sent to the user given email which has a verification link, thus authenticating a valid user.
+
+The account details are stored in the firebase. Once the user has signed up, his username and password are verified each time the user logs in. A real-time database is a database system which uses real-time processing to handle workloads whose state is constantly changing. 
+
+As multiple users sign up, the records are constantly updated so that when a user logs in, his credentials are checked and verified and only if the username and password match in the database the user is given access to the application or else a toast is given stating “invalid username/password”.
+

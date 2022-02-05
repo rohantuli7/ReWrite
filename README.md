@@ -21,3 +21,11 @@ The account details are stored in the firebase. Once the user has signed up, his
 
 As multiple users sign up, the records are constantly updated so that when a user logs in, his credentials are checked and verified and only if the username and password match in the database the user is given access to the application or else a toast is given stating “invalid username/password”.
 
+### SQLite
+
+In contrast to many other database management systems, SQLite is not a client–server database engine. Rather, it is embedded into the end program
+Re-write stores the frequently used details from the user in client/local storage so that retrieving information is faster.
+SQLite uses an unusual type system for an SQL-compatible DBMS.
+We keep on adding user entered values in the database, all values are stored in their respective column. Re-write has three different databases one stores the address of user, second stores the educational qualification and key skills of the user.
+The use of three different databases is that if a user wants to use preexisting data, he can just skip the respective activity as the database won’t be updated, previous existing values will be used.
+
